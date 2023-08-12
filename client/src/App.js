@@ -3,9 +3,7 @@ import "./App.css";
 function App() {
     return (
         <div className="App" data-theme="synthwave">
-            <button type="button" className="btn">
-                hello World
-            </button>
+            <h1>Hello World</h1>
         </div>
     );
 }
