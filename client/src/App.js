@@ -1,22 +1,19 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomepageWrapper } from "./Components/Homepage/homepageWrapper";
-import { JournalWrapper } from "./Components/Journal/journalWrapper";
-import { ChatbotWrapper } from "./Components/ChatBot/chatbotWrapper";
-import { JokesWrapper } from "./Components/Jokes/jokesWrapper";
+import { DashboardWrapper } from "./Components/Overview/dashboardWrapper";
+export let theme = "retro";
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<HomepageWrapper />} />
-            </Routes>
-            <Routes>
-                <Route path="/journal" element={<JournalWrapper />} />
-                <Route path="/chatbot" element={<ChatbotWrapper />} />
-                <Route path="/jokes" element={<JokesWrapper />} />
-            </Routes>
-        </BrowserRouter>
+        <div data-theme={theme}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomepageWrapper />} />
+                    <Route path="/overview" element={<DashboardWrapper />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 

@@ -1,4 +1,4 @@
-export async function askMessage({ prompt, setReplies }) {
+export async function askMessage(prompt) {
     let data = {
         message: prompt,
     };
