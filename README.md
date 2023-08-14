@@ -2,9 +2,9 @@
 This is our submission for the Recess Hacks 3.0 hackathon.
 
 Prerequesites for running this project:
-  -> You must have Node JS installed.
-  -> You must have NPM installed (which is bundled with Node JS).
-  -> You must have a web browser.
+  - You must have Node JS installed.
+  - You must have NPM installed (which is bundled with Node JS).
+  - You must have a web browser.
 
 Instructions for running the project:
   1) Download and extract the files onto your desktop.
