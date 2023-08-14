@@ -7,7 +7,7 @@ const http = require("http").Server(app);
 const cors = require("cors");
 
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "YOUR_API_KEY",
 });
 
 const openai = new OpenAIApi(configuration);
