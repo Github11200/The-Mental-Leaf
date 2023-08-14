@@ -1,7 +1,7 @@
 import React from "react";
 import { HomepageHeader } from "./homepageHeader";
 import { HomepageMain } from "./homepageMain";
-import logo from "../../logo.png";
+import logo from "../../Logo.png";
 import theme from "../../App.js";
 
 export const HomepageWrapper = () => {
@@ -12,7 +12,7 @@ export const HomepageWrapper = () => {
                     <img
                         src={logo}
                         alt="The mental leaf logo, which is an outline of a human head with two leaves in the middle and has a green to blue gradient"
-                        className="m-auto"
+                        className="m-auto w-[10vw]"
                     />
                     <HomepageHeader />
                     <HomepageMain />

@@ -5,7 +5,7 @@ export const HomepageMain = () => {
     return (
         <>
             <h2 className="text-4xl text-center">
-                A differenent approach to addressing mental health
+                A different approach to addressing mental health
             </h2>
             <p className="text-2xl">
                 While many mental health apps focus on things like de-stressing
