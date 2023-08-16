@@ -1,12 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import { HomepageHeader } from "./homepageHeader";
 import { HomepageMain } from "./homepageMain";
 import logo from "../../Logo.png";
-import { themeContext } from "../../App.js";
+import theme from "../../App.js";
 
 export const HomepageWrapper = () => {
-    const [theme, setTheme] = useContext(themeContext);
-
     return (
         <div className="prose flex min-w-[50vw] h-screen m-auto">
             <div className="self-center" data-theme={theme}>
