@@ -1,6 +1,10 @@
-# Hackathon-Project
+# The Mental Leaf
 This is our submission for the Recess Hacks 3.0 hackathon.
 
+## Overview
+The Mental Leaf is a simple web application that aims to help people going through mental health in a different approach. This app focuses on helping people by giving them jokes, an unbiased chatbot to talk to that does not judge them at all, a journal where they can write our their feelings, and some external resources.
+
+## Usage
 Prerequesites for running this project:
   - You must have Node JS installed.
   - You must have NPM installed (which is bundled with Node JS).
